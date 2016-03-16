@@ -17,7 +17,7 @@
 			<input type="text" name="input" placeholder="Enter number:"  />
 		</p>
 		<input type="submit" value="Submit" />
-		<h4 class="error"> Invalid input, please try again. </h4> 
+		<h4 class="error"> Invalid input, please try again (enter a number between 0 and 3,999). </h4> 
 	</form>
  
 </body>
