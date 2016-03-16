@@ -1,4 +1,13 @@
-<html>
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Roman Numeral Converter</title>
+<spring:url value="/resources/css/main.css" var="mainCss" />
+<link href="${mainCss}" rel="stylesheet" />
+</head>
 <body>
 	<h1> Integer to Roman Numeral Converter</h1>
 	
