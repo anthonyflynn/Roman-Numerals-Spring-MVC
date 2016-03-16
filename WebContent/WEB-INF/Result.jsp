@@ -13,7 +13,7 @@
 	<h3> Number in decimal: </h3>
 	<p>${roman1.inputValue}</p>
 
-	<h3> Equivalent in roman numerals:</h3>
+	<h3> Equivalent in Roman Numerals:</h3>
 	<p>${roman1.romanNumeralValue}</p>
 
 </body>

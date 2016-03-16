@@ -23,7 +23,7 @@ public class RomanNumeralController {
 
 		ModelAndView model;
 		
-		romanNumeral roman1 = new romanNumeral();
+		RomanNumeral roman1 = new RomanNumeral();
 		boolean valid = roman1.input(inputString);
 		if(!valid) {
 			model = new ModelAndView("Invalid");

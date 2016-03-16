@@ -1,16 +1,16 @@
 package roman_numeral_controller;
 
-public class romanNumeral {
+public class RomanNumeral {
 	private int inputValue;
 	private String romanNumeralValue;
 	
 	/* Constructor to initialise parameter values */
-	public romanNumeral() {
+	public RomanNumeral() {
 		inputValue = Integer.MAX_VALUE;
 		romanNumeralValue = "";
 	}
 	
-	/* Method takes the user inputted value and assigns it to the inputValue parameter.
+	/* Method takes the user input value and assigns it to the inputValue parameter.
 	 * Returns false if user input invalid / out of range, or true if input valid*/
 	public boolean input(String input) {
 		int value;
